@@ -1,0 +1,183 @@
+/**{
+	outline:1px solid rgba(255,0,0,0.3);
+}*/
+body{
+	font-family: OpenSans-Regular;
+	src: url(../fonts/Open/OpenSans-Regular.ttf);
+}
+.head{ /* Tipo de Letra para el head*/
+	background-color: #0487B1; 
+	opacity: 0.8;
+	position: fixed; /*"fixed"aunque se desplace el documento con las barras de desplazamiento del navegador, siempre aparecerá en la misma posición.*/
+	width: 100%;
+	height: 100px;
+}
+.text-decoration-none{
+	text-decoration: none;
+}
+.logo{/*--->Para el logo un tamao definido*/
+	max-width: 50%;
+}
+.lista-sin-estilo{/*--->Para todas las listas sin estilo*/
+	list-style-type: none;
+	padding: 0;
+    margin: 0;
+}
+.lista-sin-estilo li{
+    display: inline-block;    
+}
+.lista-sin-estilo li a{
+	border-right:1px solid #6E6E6E;
+	padding: 0 30px;
+}
+.lista-sin-estilo a:last-child{
+	border-right: none;
+}
+.text-white{/*--->Para definir texto de color gris*/
+	color: #ffffff;
+}
+.display-ib{/*--->Para colocar todos los bloques en linea*/
+	display: inline-block;
+}
+.pt-3{
+	padding-top: 3%;
+}
+.pb-3{
+	padding-bottom: 3%;
+}
+.pl-3{
+	padding-left: 3%;
+}
+.font-size-12{
+	font-size: 12px;
+}
+.font-size-14{
+	font-size: 14px;
+}
+.width-50{
+	width: 150px;
+}
+.pd-3{
+	padding: 3%;
+}
+.height-200{
+	height: 200px;
+}
+.height-350{
+	height: 350px;
+}
+.height-400{
+	height: 400px;
+}
+.bg-position-center{
+	background-position: center;
+}
+.bg-metodologia-img{
+	background-image: url(../img/citas.jpg);
+	background-size: cover;
+}
+.bg-metodologia-color{
+	background-color:#0487B1;
+}
+.bg-blogs{
+	background-image: url(../img/fondo2.jpg);
+}
+.redsocial{
+	height: 25px;
+	width: 25px;
+}
+.equipo-img{
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+}
+#quiensoy a{
+	text-decoration: none;
+}
+.position-icons{
+	position: relative;
+	top: 140px;
+	left: 100px;
+}
+.text-gray-dark{/* Color de letra de pie de página*/
+	color: #A4A4A4;
+}
+.brd-white{
+	border: 1px solid #F2F2F2;
+}
+.position-r{
+	position: relative;
+}
+.bg-proyectos:hover{
+	background: #000;
+	opacity: 0.3;
+	color: #000;
+	border: 1px solid #000;
+}
+.servicios-icons{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+}
+.equipo-icons{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+.nosotros-icons{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+header li:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 1px #3a7999;
+	text-decoration: none;
+}
+
+.nosotros-icons:hover{
+	border: 1px solid #0B173B;
+	border-radius: 10%;
+	-webkit-transform: rotate(10deg) scale(0.8);
+	transform: rotate(10deg) scale(0.8);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.brd-none{
+	border: none;
+}
+.input1{
+	background-color: rgba(0, 0, 0, 0.1);
+	border: none;
+}
+.btn-1{
+	background:#424242;
+	color: white;
+}
+@keyframes bounce {
+	0%{
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	20%{
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	60%{
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+	100%{
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
