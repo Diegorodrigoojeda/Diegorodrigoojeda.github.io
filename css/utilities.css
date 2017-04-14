@@ -57,26 +57,11 @@
 .text-right{
 	text-align: right;
 }
-.text-white{
-	color: white;
-}
-.text-gray{
-	color: rgb(83, 88, 95);
-}
-.text-blue{
- color: #192951;
-}
 .a-none-decoration{
 	text-decoration: none;
 }
 .bg-blue{
 	background-color: #0487B1;
-}
-.bg-green{
-	background-color: #5E8039;
-}
-.bg-black{
-	background-color: #4D4D4D;
 }
 .bg-gray{
 	background-color: #CBC8C8;
@@ -84,20 +69,21 @@
 .text-gray{
 	color:#F2F2F2;
 }
+.text-gray-dark{/* Color de letra de pie de página*/
+	color: #A4A4A4;
+}
 .text-black{
 	color: #4D4D4D;
 }
-.text-green{
+.text-blue{
 	color: #0487B1;
 }
 .text-white{
-	color:#fff;
-}
-.text-yellow{
-	color: #fac60e;
+	color:#ffffff;
 }
 .bg-img-block{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
