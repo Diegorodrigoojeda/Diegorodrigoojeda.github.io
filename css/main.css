@@ -54,9 +54,6 @@ body{
 	background-image: url(../img/citas.jpg);
 	background-size: cover;
 }
-.bg-metodologia-color{
-	background-color:#0487B1;
-}
 .bg-blogs{
 	background-image: url(../img/fondo2.jpg);
 }
@@ -93,7 +90,7 @@ body{
 	border: none;
 }
 .input1{
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: #f2f2f2;
 	border: none;
 }
 

@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Tu Doctor</title>
 	<link rel="stylesheet" type="text/css" href="section-portada/engine1/style.css" />
-	<link rel="stylesheet" type="text/css" href="section-blogs/engine1/style.css" />
+	<link rel="stylesheet" type="text/css" href="section-blogs/engine2/style.css" />
 	<link rel="stylesheet" href="css/utilities.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -16,7 +16,7 @@
     <script src="js/main.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="section-portada/engine1/jquery.js"></script>
-    <script type="text/javascript" src="section-blogs/engine1/jquery.js"></script>
+    <script type="text/javascript" src="section-blogs/engine2/jquery.js"></script>
     <!--Start of Zendesk Chat Script-->
 	<script type="text/javascript">
 	window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
@@ -39,7 +39,7 @@
 						<li><a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="#Dietas">DIETAS</a></li>
 						<li><a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="#Citas">CITAS</a></li>
 						<li><a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="#Quiensoy">QUIEN SOY</a></li>
-						<li><a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="#Noticias">NOTICIAS</a></li>
+						<li><a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="#Noticias">ARTICULOS RECOMENDADOS</a></li>
 						<li><a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" href="#Contacto">CONTACTO</a></li>
 					</ul>
 				</div>
@@ -50,17 +50,11 @@
 	<!-- Start WOWSlider.com BODY section -->
 		<div id="wowslider-container1">
 		<div class="ws_images"><ul>
-			<li><img src="section-portada/data1/images/portada1.jpg" alt="" title="" id="wows1_0"/></li>
-			<li><a href="http://wowslider.com/vi"><img src="section-portada/data1/images/portada2.jpg" alt="" title="" id="wows1_1"/></a></li>
-			<li><img src="section-portada/data1/images/portada3.jpg" alt="" title="" id="wows1_2"/></li>
-			<li><img src="section-portada/data1/images/portada4.jpg" alt="" title="" id="wows1_3"/></li>
-		</ul></div>
-		<div class="ws_bullets"><div>
-			<a href="#" title=""><span>1</span></a>
-			<a href="#" title=""><span>2</span></a>
-			<a href="#" title=""><span>3</span></a>
-			<a href="#" title=""><span>4</span></a>
-		</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap slider</a> by WOWSlider.com v8.7</div>
+				<li><img src="section-portada/data1/images/portada2.jpg" alt="portada2" title="portada2" id="wows1_0"/></li>
+				<li><a href="http://wowslider.com/vi"><img src="section-portada/data1/images/portada3.jpg" alt="css slider" title="portada3" id="wows1_1"/></a></li>
+				<li><img src="section-portada/data1/images/portada4.jpg" alt="portada4" title="portada4" id="wows1_2"/></li>
+			</ul></div>
+		<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
 		<div class="ws_shadow"></div>
 		</div>	
 		<script type="text/javascript" src="section-portada/engine1/wowslider.js"></script>
@@ -105,7 +99,7 @@
 					</li>					
 					<li class="servicios-icons pd-3">
 						<a href="#"><img src="img/iconos/servicios-icon/agricultura-icon.png"></a>
-						<h3 class="text-blue"Cáncer</h3>
+						<h3 class="text-blue">Cáncer</h3>
 						<p class="text-gray-dark font-size-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
 					</li>
 				</ul>
@@ -115,11 +109,11 @@
 	<section id="Citas"><!-- Inicio Citas -->
 		<div class="row text-center text-gray mg-0">
 			
-			<div class="col-md-4 bg-metodologia-color height-350 bg-position-center "><!-- Texto Citas -->
+			<div class="col-md-4 bg-blue height-350 bg-position-center "><!-- Texto Citas -->
 				<div class="pd-5">
 					<img src="img/iconos/metodologia-icon.png">
 					<h3 class="pt-3">Chat online</h3>
-					<p class="pt-3 font-size-14">Si es que estoy conectado aparecerá un pequeño cuadro en la esquina inferior derecha de esta página. Aproveche y haga su consulta totalmente gratuita. De lo contrario puede contactarme para concretar una cita en consultorio o a domicilio por medio del formulario que se encuentra en la zona de Contacto. Recuerde que las consultas online solo funcionan si me encuentro conectado. Muchas gracias. </p>
+					<p class="pt-3 font-size-14 text-justified">Hola. Si es que estoy conectado podrás ver una ventana de chat en la esquina inferior derecha. Haz tu consulta virtual! De lo contrario puedes escribirme en el formulario de contacto para concertar una consulta a domicilio o en consultorio. Muchas gracias! </p>
 				</div>
 			</div>
 			<div class="col-md-8 bg-metodologia-img height-350 bg-position-center pt-3 pb-3"></div><!-- Imagen Citas -->
@@ -152,7 +146,22 @@
 	<section id="Noticias"><!-- Inicio Noticias -->
 		<div class="row mg-0">
 			<div class="col-md-12 bg-blogs bg-position-center pd-3 position-r">
-				<h1 class="text-black pl-3">Blog</h1>
+				<h1 class="text-black pl-3 pb-3">Artículos recomendados</h1>
+				<!-- Start WOWSlider.com BODY section -->
+					<div id="wowslider-container2">
+					<div class="ws_images"><ul>
+							<li><a href="http://semanaeconomica.com/article/sectores-y-empresas/salud/223015-salud-en-el-peru-la-transformacion-empieza-por-las-historias/?utm_source=planisys&utm_medium=Camp_NewsletterSE&utm_campaign=EnvioNewsletter-25-04-20172017-04-25&utm_content=14" target="_blank"><img src="section-blogs/data2/images/historia_clinica_digital.jpg" alt="Salud en el Perú: La transformación empieza por las historias" title="Salud en el Perú: La transformación empieza por las historias" id="wows2_0"/></a>25 ABR 2017</li>
+							<li><a href="https://blogs.iadb.org/salud/2017/04/10/politicas-publicas/" target="_blank"><img src="section-blogs/data2/images/politicas_publicas_en_salud.jpg" alt="Netflix, Amazon y las políticas públicas en salud" title="Netflix, Amazon y las políticas públicas en salud" id="wows2_1"/></a>10 ABR 2017</li>
+						</ul></div>
+						<div class="ws_bullets"><div>
+							<a href="#" title="Salud en el Perú: La transformación empieza por las historias"><span><img src="section-blogs/data2/tooltips/historia_clinica_digital.jpg" alt="Salud en el Perú: La transformación empieza por las historias"/>1</span></a>
+							<a href="#" title="Netflix, Amazon y las políticas públicas en salud"><span><img src="section-blogs/data2/tooltips/politicas_publicas_en_salud.jpg" alt="Netflix, Amazon y las políticas públicas en salud"/>2</span></a>
+						</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslideshow</a> by WOWSlider.com v8.7</div>
+					<div class="ws_shadow"></div>
+					</div>	
+					<script type="text/javascript" src="section-blogs/engine2/wowslider.js"></script>
+					<script type="text/javascript" src="section-blogs/engine2/script.js"></script>
+					<!-- End WOWSlider.com BODY section -->
 			</div>
 		</div>
 	</section><!-- Fin Noticias -->
@@ -183,7 +192,7 @@
                   <textarea class="w-100 input1 pt-3 pl-3" type="text" placeholder="Mensaje" rows="5" cols="22" required="required" ></textarea>
                 </div>
                 <div class="text-center pt-3">       
-                  <button type="submit" class="button-d bg-blue text-center brd-none">
+                  <button type="submit" class="bg-blue text-center brd-none radio-20">
                       <p class="text-gray pt-10">Enviar</p>
                   </button>
                 </div>  
@@ -195,7 +204,7 @@
 	</section><!-- Fin Contacto -->
 	
 	<footer><!-- Inicio Footer -->	
-		<div class="row bg-blue mg-0  font-size-12 text-bold">
+		<div class="row bg-gray-dark mg-0  font-size-12 text-bold">
 			<div class="col-md-3 pd-3"><!-- Desarrollado por -->
 				<div class="text-left"><!-- Datos Desarrollado por -->
 					<p class="text-white"></p>
