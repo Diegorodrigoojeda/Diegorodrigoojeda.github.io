@@ -14,52 +14,16 @@ body{
 .logo{/*--->Para el logo un tamao definido*/
 	max-width: 50%;
 }
+/*Dietas*/
+.texto-dietas{
+	text-align: justify;
+	font-size: 12px;
+	color: #a4a4a4;
+}
+/* Fin Dietas*/
+/*Quien Soy*/
 .display-ib{/*--->Para colocar todos los bloques en linea*/
 	display: inline-block;
-}
-.pt-3{
-	padding-top: 3%;
-}
-.pb-3{
-	padding-bottom: 3%;
-}
-.pl-3{
-	padding-left: 3%;
-}
-.font-size-12{
-	font-size: 12px;
-}
-.font-size-14{
-	font-size: 14px;
-}
-.width-50{
-	width: 150px;
-}
-.pd-3{
-	padding: 3%;
-}
-.height-200{
-	height: 200px;
-}
-.height-350{
-	height: 350px;
-}
-.height-400{
-	height: 400px;
-}
-.bg-position-center{
-	background-position: center;
-}
-.bg-metodologia-img{
-	background-image: url(../img/citas.jpg);
-	background-size: cover;
-}
-.bg-blogs{
-	background-image: url(../img/fondo2.jpg);
-}
-.redsocial{
-	height: 25px;
-	width: 25px;
 }
 .equipo-img{
 	border-radius: 100%;
@@ -69,6 +33,25 @@ body{
 #quiensoy a{
 	text-decoration: none;
 }
+.redsocial{
+	height: 25px;
+	width: 25px;
+}
+/*Fin Quien Soy*/
+/*Citas*/
+.height-350{
+	height: 350px;
+}
+.bg-metodologia-img{
+	background-image: url(../img/citas.jpg);
+	background-size: cover;
+}
+/*Fin Citas*/
+/*Articulos*/
+.bg-blogs{
+	background-image: url(../img/fondo2.jpg);
+}
+/*Fin Articulos*/
 
 .brd-white{
 	border: 1px solid #F2F2F2;
@@ -76,11 +59,7 @@ body{
 .position-r{
 	position: relative;
 }
-.servicios-icons{
-	width: 25%;
-	display: inline-block;
-	vertical-align: top;
-}
+
 .equipo-icons{
 	width: 45%;
 	display: inline-block;
@@ -93,6 +72,8 @@ body{
 	background-color: #f2f2f2;
 	border: none;
 }
+
+
 
 @keyframes bounce {
 	0%{
